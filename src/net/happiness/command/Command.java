@@ -1,4 +1,4 @@
-package net.happiness;
+package net.happiness.command;
 
 public interface Command {
     void execute();

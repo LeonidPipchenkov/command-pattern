@@ -1,13 +1,15 @@
-package net.happiness;
+package net.happiness.model;
 
-public class GameBoy {
+import net.happiness.command.Command;
+
+public class GameConsole {
 
     private final Command upCommand;
     private final Command downCommand;
     private final Command leftCommand;
     private final Command rightCommand;
 
-    public GameBoy(Command upCommand, Command downCommand, Command leftCommand, Command rightCommand) {
+    public GameConsole(Command upCommand, Command downCommand, Command leftCommand, Command rightCommand) {
         this.upCommand = upCommand;
         this.downCommand = downCommand;
         this.leftCommand = leftCommand;
