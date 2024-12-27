@@ -2,30 +2,26 @@ package net.happiness.model;
 
 public class KirbyCharacter {
 
-    private String name;
+    private final String name;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
+    public KirbyCharacter() {
+        name = "Kirby";
     }
 
     public void moveUp() {
-        System.out.println(getName() + " moving up");
+        System.out.println(name + " moving up");
     }
 
     public void moveDown() {
-        System.out.println(getName() + " moving down");
+        System.out.println(name + " moving down");
     }
 
     public void moveLeft() {
-        System.out.println(getName() + " moving left");
+        System.out.println(name + " moving left");
     }
 
     public void moveRight() {
-        System.out.println(getName() + " moving right");
+        System.out.println(name + " moving right");
     }
 
 }
